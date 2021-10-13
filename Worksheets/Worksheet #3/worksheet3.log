@@ -1,0 +1,33 @@
+    1  sudo apt install build-essential dkms linux-headers-$(uname -r)
+    2  mkdir C:Temp
+    3  setx VBOXTRAY_RELEASE_LOG_FLAGS "time tid thread" /M
+    4  setx VBOXTRAY_RELEASE_LOG "guest_dnd.e.l.l2.l3.f" /M
+    5  cd Dsktop/ws1
+    6  cd Desktop/ws1
+    7  gcc -o summation summation.c
+    8  ./summation numbers.txt 1
+    9  prompt> gcc -o summation summation.c -Wall -Werror
+   10  sudo apt install libmodglue1v5
+   11  prompt> gcc -o summation summation.c -Wall -Werror
+   12  gcc -o summation summation.c
+   13  ./summation numbers.txt 1
+   14  gcc -o summation summation.c
+   15  ./summation numbers.txt 1
+   16  gcc -o summation summation.c
+   17  ./summation numbers.txt 1
+   18  gcc -o summation summation.c
+   19  ./summation numbers.txt 1
+   20  wget https://github.com/torvalds/linux/archive/master.zip (this will download the entire linux kernel source code)
+   21  wget https://github.com/torvalds/linux/archive/master.zip
+   22  unzip master.zip
+   23  cd linux-master
+   24  pwd
+   25  alias l='ls -latr'
+   26  l
+   27  find . -name mem.c
+   28  find . -name mem.c | xargs head
+   29  find . -name mem.c | xargs grep 86
+   30  cd ..
+   31  history > worksheet.log
+   32  head worksheet3.log
+   33  history > worksheet3.log
